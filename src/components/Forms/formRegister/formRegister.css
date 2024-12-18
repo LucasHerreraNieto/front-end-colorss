@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Bagel Fat One", system-ui ;
+}
+
+.formRegister{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 0px 6px 3px rgb(0, 0, 0);
+    animation: fadeIn 0.5s ease-in-out;
+}
+.text-shadow{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, 0px 1px 0 #000
+}
+@media only screen and (max-width:500px){
+    .formRegister{
+        margin: 20px;
+        width: 322px;
+        max-width: 322px;
+        height: 405px;
+        max-height: 405px;
+        padding: 0 27px;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn{
+        0% { opacity: 0;
+            transform: translateY(-20px);
+        } 100% { 
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .input{
+        width: 267px;
+        height: 48px;
+        background-color: #D9D9D9;
+        border-radius: 12px;
+    }
+    .btn{
+        width: 164px;
+        height: 37px;
+        background-color: #FF4911;
+        border-radius: 8px;
+        color: white;
+    }
+
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0;
+        transform: translateY(-20px);
+    } 100% { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
