@@ -1,21 +1,16 @@
 import { useState } from "react";
 
-const Button = ({text}) => {
+const Button = ({ text }) => {
     const [isActive, setIsActive] = useState(false);
-
-    const handleClick = () => {
-        setIsActive(true);
-    
-    };
 
     return ( 
         <button 
             id="btn-app" 
-            className={isActive ? "btn-app-active" : "btn-app"} 
+            className={`${isActive ? "btn-app-active" : "btn-app "} dark:bg-gray-700 dark:text-white` }
             onMouseDown={() => setIsActive(true)}  // Se activa al presionar
-            onMouseUp={() => setIsActive(false)}
+            onMouseUp={() => setIsActive(false)}   // Se desactiva al soltar
         >
-        {text}
+            {text}
         </button>
     );
 };
