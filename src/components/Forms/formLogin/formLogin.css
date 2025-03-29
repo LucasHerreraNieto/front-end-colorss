@@ -10,18 +10,23 @@
     border-radius: 16px;
     box-shadow: 0px 6px 3px rgb(0, 0, 0);
     animation: fadeIn 0.5s ease-in-out;
+    width: 25rem;
+    height: 20rem;
 }
 .text-shadow{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, 0px 1px 0 #000
 }
-.btn{
+.btn-login{
     background-color: #FF4911;
     border-radius: 8px;
     color: white;
+    width: 7rem;
+    height: 2rem;
 }
 .input{
         background-color: #D9D9D9;
         border-radius: 12px;
+        height: 3rem;
 }
 @media only screen and (max-width:500px){
     .formLogin{

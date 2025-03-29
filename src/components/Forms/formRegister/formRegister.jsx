@@ -8,15 +8,12 @@ const FormRegister = ({ onSwitchToLogin }) => {
                 <input type="text" name="username" className='input'/>
             </label>
             <label className="flex flex-col">
-                <span className='text-2xl text-white text-shadow'>email</span>
-                <input type="email" name="email" className='input'/>
-            </label>
-            <label className="flex flex-col">
                 <span className='text-2xl text-white text-shadow'>password</span>
                 <input type="password" name="password" className='input'/>
             </label>
-            <button type="submit" className='btn text-shadow'>Register</button>
+            <button type="submit" className='btn-form text-shadow'>Register</button>
             <p className='text-white text-shadow'>Already have an account? <span onClick={onSwitchToLogin} className='text-cyan-700 text-shadow cursor-pointer'>Login</span></p>
+            <p className='text-white text-shadow'>Unregister <span className='text-cyan-700 text-shadow cursor-pointer'>Version</span></p>
         </form>
     );
 }

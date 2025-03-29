@@ -1,0 +1,22 @@
+.btn-app{
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 40px;
+    border: 2px solid black;
+    box-shadow: -3px 5px 0px rgb(0, 0, 0);
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn-app-active{
+    font-size: 2rem;
+    transform: translatex(-3px);
+    transform: translateY(5px);
+    bottom: 5px;
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 40px;
+    border: 2px solid black;;
+}
