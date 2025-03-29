@@ -2,13 +2,17 @@ import './App.css'
 import FormPages from './components/Forms/formsPages/formsPage'
 import NavBar from './components/navBar/navBar'
 import UserPage from './components/userPage/userPage'
+import SearchPage from './components/searchPage/search_page'
 
 function App() {
   
 
   return (
-    <div className='h-screen dark:bg-gray-900'>
-      <NavBar/>
+    <div className='h-screen dark:bg-gray-900 flex'>
+      <NavBar user="XXXXX"/>
+      <div className='md:ml-48'>
+        <SearchPage/>
+      </div>
     </div>
   )
 }
