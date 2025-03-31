@@ -1,5 +1,5 @@
 const Palette = ({ palette, num, randomNum }) => {
-    const sizeClass = num === randomNum ? "w-24" : "w-12";
+    const sizeClass = num >= randomNum ? "w-24" : "w-12";
 
     return (
         <div className="flex border rounded-2xl shadow-md w-auto h-28 overflow-hidden">
