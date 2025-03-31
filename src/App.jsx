@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className='h-screen dark:bg-gray-900 flex'>
+    <div className='h-full min-h-screen dark:bg-gray-900 flex w-full '>
       <NavBar user="XXXXX"/>
       <div className='md:ml-48'>
         <SearchPage/>
